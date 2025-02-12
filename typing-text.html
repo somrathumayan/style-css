@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Typing Text</title>
+	<style>
+		h2 {
+			width: 20ch;
+			font-family: monospace; /* Fixed typo */
+			white-space: nowrap;    /* Correct property */
+			overflow: hidden;
+			border-right: 2px solid black; /* Adds a blinking cursor effect */
+			animation: typing 2s steps(20) infinite alternate-reverse; /* Fixed typo */
+		}
+
+		@keyframes typing {
+			from {
+				width: 0ch;
+			}
+			to {
+				width: 20ch; /* Smooth animation from 0 to 20 characters */
+			}
+		}
+	</style>
+</head>
+<body>
+	<h2>Md. Humayan Kabir</h2>
+</body>
+</html>
