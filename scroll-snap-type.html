@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Snap Sections</title>
+    <style>
+        /* Enable scroll snapping */
+        html {
+            scroll-snap-type: y mandatory; /* Fix applied here */
+            scroll-behavior: smooth;       /* Smooth scrolling */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            height: 100vh;                /* Full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            color: white;
+            scroll-snap-align: start;     /* Snap position for each section */
+        }
+
+        /* Different background colors for sections */
+        .section-1 { background-color: #FF6B6B; }
+        .section-2 { background-color: #4ECDC4; }
+        .section-3 { background-color: #FFD93D; color: black; }
+        .section-4 { background-color: #1A535C; }
+        .section-5 { background-color: #5E60CE; }
+    </style>
+</head>
+<body>
+
+    <section class="section-1">
+        <h2>Section 1</h2>
+    </section>
+
+    <section class="section-2">
+        <h2>Section 2</h2>
+    </section>
+
+    <section class="section-3">
+        <h2>Section 3</h2>
+    </section>
+
+    <section class="section-4">
+        <h2>Section 4</h2>
+    </section>
+
+    <section class="section-5">
+        <h2>Section 5</h2>
+    </section>
+
+</body>
+</html>

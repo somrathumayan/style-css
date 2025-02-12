@@ -6,3 +6,4 @@ Checkbox Color added in checkbox-color.html
 
 Toggle Switch Button added in toggle-switch.html
 
+Scroll snap type added in scroll-snap-type.html
