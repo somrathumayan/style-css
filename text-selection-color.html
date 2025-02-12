@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Text Selection Color</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		p {
+			text-align: center;
+			width: 400px;
+			padding: 20px;
+			border: 2px solid #000;
+			font-size: 20px;
+			font-weight: bolder;
+		}
+
+		p::selection{
+			background-color: hotpink;
+			color: white;
+		}
+
+		/*@keyframes typing {
+			from {
+				width: 0ch;
+			}
+			to {
+				width: 20ch; /* Smooth animation from 0 to 20 characters */
+			}
+		}*/
+	</style>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet asperiores libero doloremque iusto assumenda voluptatum fugiat aperiam autem dolore?</p>
+</body>
+</html>
