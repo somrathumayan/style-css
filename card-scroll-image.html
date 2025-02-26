@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Scroll Effect on Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .section {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            width: 200px;
+            height: 300px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover img {
+            transform: translateY(50px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        <div class="card">
+            <img src="https://via.placeholder.com/200x300" alt="Image 1">
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200x300" alt="Image 2">
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200x300" alt="Image 3">
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200x300" alt="Image 4">
+        </div>
+    </div>
+
+</body>
+</html>

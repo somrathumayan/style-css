@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractive Service Section</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .tj-service-area {
+            padding: 60px 0;
+        }
+
+        .tj-section-subtitle {
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #6c5ce7;
+            margin-bottom: 10px;
+        }
+
+        .tj-section-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .tj-service-wrapper {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.4s, box-shadow 0.4s;
+            cursor: pointer;
+        }
+
+        .tj-service-wrapper:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .tj-service-icon span {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            border-radius: 50%;
+            margin-bottom: 20px;
+            transition: transform 0.5s;
+        }
+
+        .tj-service-wrapper:hover .tj-service-icon span {
+            transform: rotate(360deg);
+        }
+
+        .tj-service-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #444;
+            margin-bottom: 15px;
+        }
+
+        .tj-service-desc p {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .tj-section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Service Section -->
+    <section class="tj-service-area">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="tj-section-subtitle">Core Features</h6>
+                <h2 class="tj-section-title">Standout Features</h2>
+            </div>
+            <div class="row justify-content-center g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="tj-service-wrapper">
+                        <div class="tj-service-icon">
+                            <span><i class="fa-brands fa-facebook" style="color: gold; font-size: 40px;"></i></span>
+                        </div>
+                        <h4 class="tj-service-title">Fast Performance</h4>
+                        <div class="tj-service-desc">
+                            <p>Enjoy lightning-fast load times and a seamless user experience with our optimized platform.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="tj-service-wrapper">
+                        <div class="tj-service-icon">
+                            <span><i class="fa-brands fa-facebook" style="color: gold; font-size: 40px;"></i></span>
+                        </div>
+                        <h4 class="tj-service-title">Fresh & Clean Design</h4>
+                        <div class="tj-service-desc">
+                            <p>Experience a modern, clutter-free design that’s refreshing and functional with intuitive navigation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="tj-service-wrapper">
+                        <div class="tj-service-icon">
+                            <span><i class="fa-brands fa-facebook" style="color: gold; font-size: 40px;"></i></span>
+                        </div>
+                        <h4 class="tj-service-title">Friendly Support</h4>
+                        <div class="tj-service-desc">
+                            <p>Get the help you need anytime. Our support team provides quick, friendly assistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Service Section -->
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
