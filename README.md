@@ -9,3 +9,5 @@ Toggle Switch Button added in toggle-switch.html
 Scroll snap type added in scroll-snap-type.html
 
 Animated Jelly Button added in animated-jelly-button.html
+
+Auto Image Scroll on hover Animation added in auto-image-scroll.html
